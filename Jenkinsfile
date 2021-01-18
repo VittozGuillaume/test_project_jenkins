@@ -1,7 +1,7 @@
 node {
 
 stage('SCM'){
- git 'https://github.com/VittozGuillaume/test_projet_jenkins'
+ git 'https://github.com/VittozGuillaume/test_project_jenkins'
 }
 
 stage('Compile'){
